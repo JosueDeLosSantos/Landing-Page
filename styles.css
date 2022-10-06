@@ -25,6 +25,7 @@ header {
     justify-content: left;
     align-items: center;
     color: #F9FAF8;
+    font-size: 24px;
 }
 
 ul {
@@ -42,7 +43,7 @@ li {
 }
 
 a {
-    font-size: 14px;
+    font-size: 18px;
     text-decoration: none;
     color: #E5E7Eb;
 }
@@ -64,31 +65,36 @@ main {
 
 #presentation > h1 {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 34px;
+    font-size: 48px;
     color: #F9FAF8;
     font-weight: bold;
+    padding-right: 50px
 }
 
 .subtext {
-    font-size: 14px;
+    font-size: 18px;
     color: #E5E7Eb;
     padding-bottom: 6px;
+    max-width: 333px;
 }
 
 .sign-up {
     background: #3882f6;
     color: white;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
-    padding: 4px 20px;
+    padding: 5px 20px;
     border-radius: 5px;
     border: none;
 }
 
 
 
+
 .p-image {
     flex: 0 1 450px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
