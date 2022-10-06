@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,18 +13,81 @@ header {
     display:flex;
     height: 72px;
     position: fixed;
+    width: 100%;
+    background: #1F2937;
+
+}
+
+.logo{
+    flex: 0 1 400px;
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+    padding-left: 110px;
 }
 
 ul {
     display: flex;
     list-style: none;
     padding: 0;
+    flex: 0 1 500px;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+li {
+    display: flex;
+    align-items: center;
 }
 
 a {
+    font-size: 14px;
     text-decoration: none;
+    color: #E5E7Eb;
 }
 
 main {
     padding-top: 72px;
 }
+
+.first {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    gap: 14px;
+    background: #1F2937;
+}
+
+#presentation {
+    flex: 0 1 332px;
+}
+
+#presentation > h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 14px;
+    color: #E5E7Eb;
+    padding-bottom: 6px;
+}
+
+.sign-up {
+    background: #3882f6;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+.p-image {
+    flex: 0 1 346px;
+}
+
