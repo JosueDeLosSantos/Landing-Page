@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -10,29 +11,29 @@
 
 
 header {
-    display:flex;
+    display: flex;
+    justify-content: center;
     height: 72px;
     position: fixed;
     width: 100%;
     background: #1F2937;
-
 }
 
 .logo{
     flex: 0 1 400px;
     display: flex;
+    justify-content: left;
     align-items: center;
     color: #F9FAF8;
-    padding-left: 110px;
 }
 
 ul {
     display: flex;
+    justify-content: right;
     list-style: none;
     padding: 0;
     flex: 0 1 500px;
     gap: 20px;
-    padding-left: 20px;
 }
 
 li {
@@ -52,14 +53,13 @@ main {
 
 .first {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     padding: 50px 0;
-    gap: 14px;
     background: #1F2937;
 }
 
 #presentation {
-    flex: 0 1 332px;
+    flex: 0 1 450px;
 }
 
 #presentation > h1 {
@@ -88,6 +88,8 @@ main {
 
 
 .p-image {
-    flex: 0 1 346px;
+    flex: 0 1 450px;
 }
+
+
 
