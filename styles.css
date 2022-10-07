@@ -28,6 +28,7 @@ header {
     font-size: 24px;
 }
 
+
 ul {
     display: flex;
     justify-content: right;
@@ -42,7 +43,7 @@ li {
     align-items: center;
 }
 
-a {
+li > a {
     font-size: 18px;
     text-decoration: none;
     color: #E5E7Eb;
@@ -52,18 +53,18 @@ main {
     padding-top: 72px;
 }
 
-.first {
+#first {
     display: flex;
     justify-content:center;
-    padding: 50px 0;
+    padding: 50px 0 100px 0;
     background: #1F2937;
 }
 
-#presentation {
+.presentation {
     flex: 0 1 450px;
 }
 
-#presentation > h1 {
+.presentation > h1 {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 48px;
     color: #F9FAF8;
@@ -84,7 +85,7 @@ main {
     font-size: 16px;
     font-weight: 600;
     padding: 5px 20px;
-    border-radius: 5px;
+    border-radius: 7px;
     border: none;
 }
 
@@ -97,5 +98,116 @@ main {
     justify-content: flex-end;
 }
 
+#second {
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+
+.cards-title {
+    margin-bottom: 45px;
+}
+
+.cards-title > h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 160px;
+    gap: 10px;
+}
+
+.card > p {
+    color: #38465c;
+}
+
+.image-border {
+    max-width: 160px;
+    height: 160px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin: auto;
+}
 
 
+
+.card-image {
+    max-width: 150px;
+    height: 150px;
+    object-fit: fill;
+}
+
+#third {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.author {
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right;
+}
+
+blockquote {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#four {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.sign-up-call{
+    display: flex;
+    justify-content: center;
+    width: 910px;
+    background: #3882f6;
+    color: white;
+    padding: 50px 0;
+    gap: 170px;
+    border-radius: 10px;
+}
+
+.call-message > h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up-buttton {
+    display: flex;
+    align-items: center;
+}
+
+.border {
+    border: 2px solid white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    width: 100%;
+    background: #1F2937;
+    color: #E5E7Eb;
+}

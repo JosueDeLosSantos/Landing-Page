@@ -10,18 +10,18 @@
 <body>
 
     <header>
-        <div class="logo"><h3>Header Logo</h3></div>
+        <div class="logo"><a class="logo" href="index.html"><img src="images/globe-4-32.png"/></a></div>
         <ul>
-            <li><a href="#presentation">Header link one</a></li>
-            <li><a href="#cards">Header link two</a></li>
-            <li><a href="#sign-up-call">Header link three</a></li>
+            <li><a href="#first">Header link one</a></li>
+            <li><a href="#second">Header link two</a></li>
+            <li><a href="#third">Header link three</a></li>
         </ul>
     </header>
 
     <main>
 
-        <div class="section first">
-            <div id="presentation">
+        <div id="first">
+            <div class="presentation">
                 <h1 class="big-text">This website is awesome</h1>
                 <div class="subtext">This website has some subtext that goes here
                     under the main title. It's a smaller font and the color is
@@ -30,45 +30,59 @@
                 <button class="sign-up">Sign up</button>
             </div>
             <div class="p-image">
-                <img width="450px" height="208px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB8rxaQoiIzi12DhVojg5IdXa-14R5NQne_g&usqp=CAU"/>
+                <img width="450" height="207" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB8rxaQoiIzi12DhVojg5IdXa-14R5NQne_g&usqp=CAU"/>
             </div>
         </div>
 
-        <div class="section">
+        <div id="second">
+
             <div class="cards-title"><h2>Some random information.</h2></div>
-            <div id="cards">
+
+            <div class="cards">
+
                 <div class="card">
-                    <img src="images/barberry.png" alt="barberry icon"/>
+                    <div class="image-border">
+                        <img class="card-image" src="images/barberry.png" alt="barberry icon"/>
+                    </div>
                     <p>This is some subtext under an illustration or image</p>
                 </div>
+
                 <div class="card">
-                    <img src="images/chilli.png" alt="chilli icon"/>
+                    <div class="image-border">
+                        <img class="card-image" src="images/chilli.png" alt="chilli icon"/>
+                    </div>
                     <p>This is some subtext under an illustration or image</p>
                 </div>
+
                 <div class="card">
-                    <img src="images/pepper.png" alt="pepper icon"/>
+                    <div class="image-border">
+                        <img class="card-image" src="images/pepper.png" alt="pepper icon"/>
+                    </div>
                     <p>This is some subtext under an illustration or image</p>
                 </div>
+
                 <div class="card">
-                    <img src="images/saffron.png" alt="saffron icon"/>
+                    <div class="image-border">
+                        <img class="card-image" src="images/saffron.png" alt="saffron icon"/>
+                    </div>
                     <p>This is some subtext under an illustration or image</p>
                 </div>
+
             </div>
         </div>
 
-        <div class="section quote">
+        <div id="third">
             <div class="quote">
                 <blockquote cite="https://www.freecodecamp.org/">
                     By the way, each Friday I send an email with 5 links about programming and computer science. I send these to about 4
                     million people. Would you like me to send this to you, too?
                 </blockquote>
-                <br/>
-                <span class="author">Quincy Larson</span>
+                <span class="author">-Quincy Larson</span>
             </div>
         </div>
 
-        <div class="section call">
-            <div id="sign-up-call">
+        <div id="four">
+            <div class="sign-up-call">
                 <div class="call-message">
                     <h3>Call to action! It's time!</h3>
                     <p>Sign up for our product by clicking that button right over there!</p>
